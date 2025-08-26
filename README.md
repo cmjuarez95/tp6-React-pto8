@@ -9,7 +9,7 @@ Si todo está correcto, aparece un **alert** confirmando que los datos fueron en
 
 ## Deploy
 
-Podés ver la aplicación aquí: [Lista de empleados](https://formsimple-mj.netlify.app/)
+Podés ver la aplicación aquí: [Formulario](https://formsimple-mj.netlify.app/)
 
 # 📂 Estructura de Componentes
 
