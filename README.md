@@ -1,12 +1,24 @@
-# React + Vite
+# Formulario simple
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+Aplicación web simple creada con **React** y **Bootstrap** que muestra un formulario con validación básica.  
+El usuario debe completar los campos de **Nombre**, **Apellido**, **DNI** y **Email** antes de poder enviar el formulario.  
+Si falta algún dato, aparece un **alert** indicando que hay que completar los campos.  
+Si todo está correcto, aparece un **alert** confirmando que los datos fueron enviados.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Deploy
 
-## Expanding the ESLint configuration
+Podés ver la aplicación aquí: [Lista de empleados](https://formsimple-mj.netlify.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 📂 Estructura de Componentes
+
+- **App.jsx** → Componente raíz, integra `Header` y `Formulario`.  
+- **components/Header.jsx** → Muestra el título *"Formulario"*.  
+- **components/Formulario.jsx** → Contiene los campos del formulario y la validación.  
+
+## 🚀 Tecnologías utilizadas
+
+- [React](https://react.dev/) → Librería principal para la UI.  
+- [Bootstrap](https://getbootstrap.com/) → Framework CSS para el diseño responsivo.  
+- [Vite](https://vitejs.dev/) → Bundler rápido para desarrollo.  
